@@ -26,7 +26,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/events", eventRoutes);
 app.use("/api/curriculum", curriculumRoutes);
 app.use("/api/faculty", facultyRoutes);
-app.use("/api/highlights", highlightRoutes);
+app.use("/api/highlight", highlightRoutes);
 
 // Server
 const PORT = process.env.PORT || 5000;
